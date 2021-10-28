@@ -1,0 +1,186 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+  
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Student Result Management System</title>
+    <link href="assets/images/logo.png" rel="icon">
+    <link href="//fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style-starter.css">
+  </head>
+  <body>
+
+
+<!-- Top Menu 1 -->
+<section class="w3l-top-menu-1">
+	<div class="top-hd">
+		<div class="container">
+	<header class="row top-menu-top">
+		<div class="accounts col-md-9 col-6">
+      <li class="top_li"><span class="fa fa-phone"></span><a href="9871234451">9871234451</a> </li>
+		</div>
+	</header>
+</div>
+</div>
+</section>
+<!-- //Top Menu 1 -->
+<section class="w3l-bootstrap-header">
+  <nav class="navbar navbar-expand-lg navbar-light py-lg-2 py-2">
+    <div class="container">
+      <img src="assets/images/logo.png" height = "80" width = "100" alt="logo" />
+      <a class="navbar-brand" href="index.html"> <h1><font color = "blue">Student Result Management System</font></h1></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon fa fa-bars"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="teacher.php">Teacher Log In</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="student.html">Student Log In</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</section>
+<section class="w3l-contact-breadcrum">
+  <div class="breadcrum-bg py-sm-5 py-4">
+    <div class="container py-lg-3">
+      <h2>STUDENT MARKS PORTAL</h2>
+      <p><a href="index.html">Home</a> &nbsp; / &nbsp; Student</p>
+    </div>
+  </div>
+</section>
+<!-- contact -->
+
+<section class="w3l-contact py-5" id="contact">
+  <div class="container col-lg-12 col-md-6 py-lg-3">
+    <h3 class="global-title">Please Enter Your Correct Enrollment Id to view Your Marks</h3>
+    <div class="row">
+      <div class="col-md-8 contact-form">
+        <form action="marks.php" method="post">
+          <b><h3>Enrollment No.:  </h3>  </b> <input type="text" class="form-control" name="enrno" placeholder="Enrolment No" />
+          <br>
+          </form>
+          </div>
+          </div>
+          </div>
+          </section>
+
+<section class="w3l-footer-29-main">
+  <div class="footer-29">
+    <div class="container">
+        <div class="d-grid grid-col-4 footer-top-29">
+        </div>
+        <div class="d-grid grid-col-2 bottom-copies">
+            <p class="copy-footer-29">©2021 All rights reserved | Designed by ARIJIT CHATTERJEE </p>
+        </div>
+    </div>
+</div>
+  <!-- move top -->
+  <button onclick="topFunction()" id="movetop" title="Go to top">
+    <span class="fa fa-angle-up"></span>
+  </button>
+  <script>
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function () {
+      scrollFunction()
+    };
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("movetop").style.display = "block";
+      } else {
+        document.getElementById("movetop").style.display = "none";
+      }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+  </script>
+  <!-- /move top -->
+</section>
+<script src="assets/js/jquery-3.3.1.min.js"></script>
+<!-- //footer-28 block -->
+</section>
+<script>
+  $(function () {
+    $('.navbar-toggler').click(function () {
+      $('body').toggleClass('noscroll');
+    })
+  });
+</script>
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+  integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+  integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+</script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+  integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+</script>
+
+<!-- Template JavaScript -->
+<script src="assets/js/all.js"></script>
+<!-- Smooth scrolling -->
+<!-- <script src="assets/js/smoothscroll.js"></script> -->
+<script src="assets/js/owl.carousel.js"></script>
+
+<!-- script for -->
+<script>
+  $(document).ready(function () {
+    $('.owl-one').owlCarousel({
+      loop: true,
+      margin: 0,
+      nav: true,
+      responsiveClass: true,
+      autoplay: false,
+      autoplayTimeout: 5000,
+      autoplaySpeed: 1000,
+      autoplayHoverPause: false,
+      responsive: {
+        0: {
+          items: 1,
+          nav: false
+        },
+        480: {
+          items: 1,
+          nav: false
+        },
+        667: {
+          items: 1,
+          nav: true
+        },
+        1000: {
+          items: 1,
+          nav: true
+        }
+      }
+    })
+  })
+</script>
+<!-- //script -->
+
+</body>
+
+</html>
+<!-- // grids block 5 -->
+
+
